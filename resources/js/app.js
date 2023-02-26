@@ -6,6 +6,9 @@
 
 import './bootstrap';
 import { createApp } from 'vue';
+import.meta.glob([
+    '../img/**',
+]);
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
